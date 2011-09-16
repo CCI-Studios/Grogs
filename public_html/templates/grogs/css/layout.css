@@ -1,0 +1,74 @@
+body {
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+	position: relative;
+	width: 960px;
+	margin:0 auto;
+	padding:0 10px;
+}
+
+body.isWide #component {
+	width:100%;
+	margin-right:0;
+	}
+	
+
+#header {
+	position:relative;
+	background: url('../images/header_bg.jpg') center top no-repeat;
+	}
+
+#header > div {
+	position:relative;
+	height: 204px;
+	background: url('../images/header_bg.jpg') center top no-repeat;
+	}
+
+#nav {
+	height:63px;
+	background: url('../images/nav_bg.jpg') center top no-repeat;
+	margin-top:80px;
+	}
+
+#nav > div {
+	height:63px;
+	background: url('../images/nav_bg.jpg') center top no-repeat;
+	}
+
+#MacPhersonsLogo {
+	position:relative;
+	margin: 0 auto;
+	background: url('../images/MacPhersons_Logo.png') center no-repeat;
+	width:285px;
+	height:250px;
+	z-index:3;
+	padding:0;
+	padding-bottom:30px;
+	}
+	
+
+#tablecloth {
+	position:relative;
+	margin: 0 auto;
+	left:90px;
+	top:-194px;
+	background: url('../images/tableclothSetup.png') center top no-repeat;
+	width: 853px;
+	height: 488px;
+}
+
+#reservedSign {
+	position:absolute;
+	top:244px;
+	left:-66px;
+	background: url('../images/reserved_icon.png') center top no-repeat;
+	width:148px;
+	height:87px;
+}
+
+#component {
+	float:left;
+	width: 630px;
+}

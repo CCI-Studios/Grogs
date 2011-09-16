@@ -1,0 +1,59 @@
+/*Main Menu*/
+
+ul.menu {
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 16px;
+	line-height: 64px;
+}
+
+ul.menu li {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+
+	margin-left: 6px;
+	padding-left: 6px;
+}
+
+ul.menu li:first-child {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+ul.menu a {
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+
+#navcontainer {
+	z-index:3;
+}
+
+#navcontainer ul {
+	text-align: center;
+}
+
+#navcontainer ul li { 
+	padding: 0 0 0 20px;
+	margin-left: 20px;
+}
+
+#navcontainer ul li a {
+	padding: 0 10px 0 0;
+	line-height:63px;
+}
+
+#navcontainer ul li:first-child a {
+	margin-left:0;
+}
+
+#navcontainer ul li:hover {
+	background: url('../images/nav_rollover.png') top no-repeat;
+}
+
+
+
+/* @end*/
