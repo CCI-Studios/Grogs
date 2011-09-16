@@ -1,6 +1,7 @@
 /*Main Menu*/
 
-ul.menu {
+#nav ul.menu {
+	font-family: 'Times New Roman', Times, serif;
 	list-style: none;
 	margin: 0 auto;
 	padding: 0;
@@ -8,7 +9,7 @@ ul.menu {
 	line-height: 64px;
 }
 
-ul.menu li {
+#nav ul.menu li {
 	display: inline-block;
 	*display: inline;
 	zoom: 1;
@@ -17,16 +18,72 @@ ul.menu li {
 	padding-left: 6px;
 }
 
-ul.menu li:first-child {
+#nav ul.menu li:first-child {
 	margin-left: 0;
 	padding-left: 0;
 }
 
-ul.menu a {
+#nav ul.menu a {
 	display: block;
 	text-decoration: none;
 	color: white;
 }
+
+/*footer menu*/
+
+#footer {
+	margin:0 auto;
+	position: relative;
+	width: 960px;
+}
+
+#footer p {
+	padding: 10px 0 20px 0;
+	font-size:10px;
+}
+
+#footer ul.menu {
+	list-style: none;
+	margin: 0 auto;
+	font-size: 10px;
+	line-height: 12px;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid #549768;
+	
+}
+
+#footer ul.menu li {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+
+	margin-left: 6px;
+	padding-left: 6px;
+}
+
+#footer ul.menu li:first-child {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+#footer ul.menu a {
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+
+#footer ul li { 
+	border-left: 1px solid #000;
+}
+
+#footer li:first-child {
+	border:none;
+}
+
+#footer ul li a:hover {
+	color:#549768;
+}
+/* @end */
 
 #navcontainer {
 	z-index:3;
@@ -54,6 +111,5 @@ ul.menu a {
 	background: url('../images/nav_rollover.png') top no-repeat;
 }
 
-
-
 /* @end*/
+

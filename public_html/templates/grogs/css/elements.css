@@ -1,1 +1,25 @@
-img { max-width:100%;}
+img {max-width:100%;}
+
+p {letter-spacing:.05em;}
+
+#component img {
+	border: 2px solid #549768;
+	margin: 20px 30px 20px 0 ;
+	}
+	
+h1, h2 {
+	font-family: 'Times New Roman', Times, serif;
+	position: relative;
+	font-size:18px;
+	font-style: bold;
+	
+	margin-bottom:20px;	
+	padding-bottom:20px;
+	border-bottom: 1px solid #549768;
+	color:#549768;
+	}
+	
+a {
+	text-decoration:none;
+	color: #549768;
+}
