@@ -1,25 +1,41 @@
+body {
+	font-family:Helvetica,Arial,'DejaVu Sans','Liberation Sans',Freesans,sans-serif;
+	font-size:12px;
+	letter-spacing:.05em;
+	}
+	
 img {max-width:100%;}
 
-p {letter-spacing:.05em;}
+p {
+	letter-spacing:.1em;
+	line-height:16px;
+	}
 
 #component img {
 	border: 2px solid #549768;
-	margin: 20px 30px 20px 0 ;
+	margin: 10px 30px 20px 0 ;
 	}
 	
 h1, h2 {
 	font-family: 'Times New Roman', Times, serif;
 	position: relative;
+	letter-spacing:.1em;
 	font-size:18px;
 	font-style: bold;
-	
 	margin-bottom:20px;	
 	padding-bottom:20px;
 	border-bottom: 1px solid #549768;
 	color:#549768;
+	background: url('../images/bullet.png') no-repeat;
+	padding-left:30px;
+	
 	}
 	
 a {
 	text-decoration:none;
 	color: #549768;
+	}
+	
+#footer a {
+	color: black;
 }
