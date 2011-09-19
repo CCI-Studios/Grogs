@@ -14,7 +14,7 @@ body.isWide #component {
 
 #header_links ul.menu {
 	float:right;
-	font-weight:bold;
+	font-weight: 100;
 	font-family: 'Times New Roman', Times, serif;
 	list-style: none;
 	margin: 0 auto;

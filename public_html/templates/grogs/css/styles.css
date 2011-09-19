@@ -1,3 +1,5 @@
 .floatleft { float: left; }
 .floatright { float:right; }
 .clear { clear:both; }
+.item_right { margin-left:200px; }
+.border_remove {margin-right:100px;}

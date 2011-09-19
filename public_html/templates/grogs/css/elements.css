@@ -26,10 +26,11 @@ h1, h2 {
 	padding-bottom:20px;
 	border-bottom: 1px solid #549768;
 	color:#549768;
-	background: url('../images/bullet.png') no-repeat;
+	background: url('../images/bullet.png') top right no-repeat;
 	padding-left:30px;
-	
+	width: auto;
 	}
+
 	
 a {
 	text-decoration:none;

@@ -22,6 +22,8 @@
 	</files>
 
 	<positions>
+		<position>headerlinks</position>
+		<position>nav</position>
 		<position>header</position>
 		<position>footer</position>
 		<position>sidebar</position>
