@@ -10,10 +10,10 @@ p {
 	letter-spacing:.1em;
 	line-height:16px;
 	}
-
-#component img {
-	border: 2px solid #549768;
-	margin: 10px 30px 20px 0 ;
+	
+a {
+	text-decoration:none;
+	color: #549768;
 	}
 	
 h1, h2 {
@@ -30,12 +30,20 @@ h1, h2 {
 	padding-left:30px;
 	width: auto;
 	}
-
 	
-a {
-	text-decoration:none;
-	color: #549768;
+#component img {
+	border: 2px solid #549768;
+	margin: 10px 30px 20px 0 ;
 	}
+
+#component p {
+	margin:0;
+}
+	
+#footer p {
+	padding: 10px 0 20px 0;
+	font-size:10px;
+}
 	
 #footer a {
 	color: black;
