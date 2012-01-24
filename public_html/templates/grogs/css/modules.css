@@ -3,39 +3,36 @@
 #nav ul.menu {
 	font-family: 'Times New Roman', Times, serif;
 	list-style: none;
-	margin: 0 auto;
+	margin: 0 auto 0 35px;
 	padding: 0;
-	height:44px;
 	font-size: 16px;
-	line-height: 48px;
+	line-height: 43px;
+	text-align: center;	
+	position:relative;
+	background: url('../images/menubreak.png') right no-repeat;
+	left:-38px;
+	width:980px;
 }
 
 #nav ul.menu li {
-	background: url('../images/menubreak.png') no-repeat;
-	background-position: 0px 5px;
+	background: url('../images/menubreak.png') left center no-repeat;
 	padding-left:14px;
-	position:relative;
-	top:-5px;
-		display: inline-block;
+	display: inline-block;
 	*display: inline;
 	zoom: 1;
-	padding: 0 25px;
+	padding: 0 20px; /* TODO Check in IE */
 }
 
-#nav ul li:last-child {
-	background: url('../images/menubreak.png') no-repeat;
-	background-position: 0px 5px;
-	padding-left:24px;
+#nav ul.menu li.item-119, #nav ul.menu li.item-113 {
+	background: none;
 }
 
 #nav ul.menu a {
-	position:relative;
 	display: block;
 	text-decoration: none;
 	color: white;
-	padding-top:12px;
+	padding-top:10px;
 	padding-bottom:10px;
-	top:-10px;
 }
 
 #navcontainer {
@@ -51,42 +48,27 @@
 #navcontainer .image {
 	display: block;
 	width: 273px;
-	position: relative;
 }
 
 #navcontainer .image img {
 	position: absolute;
-	left: -16px;
-	top: -105px;
+	left: 50%;
+	margin-left:-140px;
+	top: -90px;
 }
 
 #navcontainer .image span { display:none; } /* TODO Fix this for blind people */
-
-#navcontainer ul {
-	position:relative;
-	top:11px;
-	text-align: center;	
-	line-height:20px;
-}
 
 #navcontainer ul li:first-child a {
 	margin-left:0;
 }
 
 #navcontainer ul li a:hover {
-	background: url('../images/nav_rollover.png') top center no-repeat;
+	background: url('../images/nav_rollover.png') center top no-repeat;
 }
 
 /* @end */
 
-/*component*/
-
-#component li {
-	position: relative;
-	left:20px;
-}
-
-/* @end */
 
 /*events*/
 
@@ -105,7 +87,7 @@
 	list-style: none;
 	margin: 0 auto;
 	font-size: 10px;
-	line-height: 12px;
+	line-height: 10px;
 	padding: 0 0 10px 0;
 	border-bottom: 1px solid #549768;
 	
@@ -145,4 +127,9 @@
 /* @end */
 
 
+#nav .moduletable_menu {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
 

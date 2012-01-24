@@ -9,3 +9,16 @@
 	top:50px;
 }
 
+ul.double {
+	list-style-position:inside;
+	padding-left: 0;
+}
+
+ul.double li {
+	background: url('../images/ul_bullet.png') no-repeat top left;
+	padding: 0 0 7px 15px;
+	width: 20%;
+	display: inline-block;
+	*display:inline;
+	zoom: 1;
+}

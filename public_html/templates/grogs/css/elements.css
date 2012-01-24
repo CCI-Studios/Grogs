@@ -16,21 +16,25 @@ a {
 	color: #549768;
 	}
 	
-h1, h2 {
+h1, .moduletable h3 {
 	font-family: 'Times New Roman', Times, serif;
-	position: relative;
 	letter-spacing:.1em;
 	font-size:18px;
 	font-style: bold;
 	margin-bottom:20px;	
-	padding-bottom:20px;
-	border-bottom: 1px solid #549768;
 	color:#549768;
+	background: url('../images/bullet.png') top left no-repeat;
+}
+
+h1 span, .moduletable h3 span {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
 	background: url('../images/bullet.png') top right no-repeat;
-	padding-left:30px;
-	width: auto;
-	}
-	
+	padding: 0 30px 10px;
+	border-bottom: 1px solid #549768;
+}
+
 #component img {
 	border: 2px solid #549768;
 	margin: 10px 30px 20px 0 ;

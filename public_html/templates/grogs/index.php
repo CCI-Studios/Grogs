@@ -11,18 +11,14 @@
 	<div class="container"><div id="header_links">
 		
 		<jdoc:include type="modules" name="headerlinks" style="xhtml" />
-				
+		<div class="clear"></div>		
 	</div></div>
 		
 		<div class="clear"></div>
 	
-	<div id="nav">
-		<div id="navcontainer">			
-			
-			<jdoc:include type="modules" name="nav" style="xhtml" />
-			
-		</div>
-	</div>
+	<div id="nav"><div id="navcontainer" class="container">
+		<jdoc:include type="modules" name="nav" style="xhtml" />
+	</div></div>
 	
 	<div id="header"><div><div class="container">
 		
@@ -42,7 +38,7 @@
 		</div><!-- end component -->
 		
 		<div id="sidebar">
-			<jdoc:include type="modules" name="sidebar" style="xhtml" />
+			<jdoc:include type="modules" name="sidebar" style="xhtml2" />
 		</div><!-- end sidebar -->
 		<div class="clear"></div>
 		
