@@ -40,3 +40,8 @@
 }
 .home #content p {margin-top: 0px;}
 #content p {margin-top: -29px;}
+
+#sidebar {
+	float: left;
+	width: 240px
+}
