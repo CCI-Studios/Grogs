@@ -1,6 +1,6 @@
 /*Main Menu*/
+.moduletable_hmenu {font-family: 'Times New Roman', Times, serif;}
 .moduletable_hmenu ul li {
-	font-family: 'Times New Roman', Times, serif;
 	display: inline-block;
 	*display: inline;
 	zoom: 1;
@@ -46,6 +46,7 @@
 .moduletable_hmenu.primary ul li:first-child img {position: relative; top: -14px;}
 
 .moduletable_hmenu.secondary {
+	font-family: Helvetica, Arial, sans-serif; 
 	float: right;
 }
 
