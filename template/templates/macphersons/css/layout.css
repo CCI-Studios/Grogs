@@ -1,11 +1,10 @@
 /* layout */
 .container {
-	width: 940px;
+	position: relative;
+	width: 960px;
+	padding: 0 10px;
 	margin: 0 auto;
 }
+#nav .container {height: 120px;}
 
-#nav {
-	background: url('../images/nav_bg.png') top center repeat-x;
-}
-
-#nav > div {position: relative}
+#nav {background: url('../images/nav_bg.png') bottom center repeat-x;}

@@ -1,48 +1,42 @@
-/* @group modules */
-.moduletable {}
+/*Main Menu*/
+.moduletable_hmenu.primary  {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
 
-/* @group hmenu */
-.moduletable_hmenu.primary {
+.moduletable_hmenu.primary ul {
 	font-family: 'Times New Roman', Times, serif;
-	font-size: 14px;
-	font-weight: bold;
-	margin-top: 80px;
-	position: relative;
-}
-
-.moduletable_hmenu.primary > ul {
-	background: url('../images/menubreak.png') right center no-repeat;
-	position: relative;
-	top: -64px;
-	
-	line-height: 64px;
- 	margin: 0;
+	list-style: none;
+	margin: 0 auto;
 	padding: 0;
-	text-align: center;
+	font-size: 14px;
+	line-height: 43px;
+	text-align: center;	
+	position:relative;
+	left:-38px;
+	width:980px;
 }
 
-.moduletable_hmenu.primary > ul > li:first-child {top: 0px; background: none;}
-.moduletable_hmenu.primary > ul > li:first-child span {display: none;}
-.moduletable_hmenu.primary > ul > li:first-child img {position:relative; top: -10px;}
-.moduletable_hmenu.primary > ul > li {
+.moduletable_hmenu.primary ul li {
+	background: url('../images/menubreak.png') right center no-repeat;
+	padding-left:14px;
 	display: inline-block;
 	*display: inline;
-	*zoom: 1;
-	position: relative;
-	top: -64px;
-	
-	padding: 0;
-	background: url('../images/menubreak.png') left center no-repeat;
-	position:relative;
+	zoom: 1;
+	padding: 0 17px;
+}
+.moduletable_hmenu.primary ul li:first-child {background: none;} /* Removes menu divider */
+
+.moduletable_hmenu.primary ul li a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding-top:10px;
+	padding-bottom:10px;
 }
 
-.moduletable_hmenu.primary > ul > li a {
-	color: #ffffff;
-	line-height: 64px; 
-	padding: 13px 17px;
+.moduletable_hmenu.primary ul li a:hover {
+	background: url('../images/nav_rollover.png') center top no-repeat;
 }
-	
-.moduletable_hmenu.primary > ul > li a:hover {
-	background: url('../images/nav_rollover.png') top center repeat-x;
-	text-decoration: none;
-}
+
