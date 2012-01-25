@@ -9,4 +9,5 @@
 
 #nav {background: #ffffff url('../images/nav_bg.png') bottom center repeat-x;}
 
-#header {background: url('../images/bg_header.jpg') top center repeat-x; height: 248px;}
+#header {background: url('../images/bg_headerInner.jpg') top center repeat-x; height: 93px;}
+.home #header {background: url('../images/bg_header.jpg') top center repeat-x; height: 248px;}
