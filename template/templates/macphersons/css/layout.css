@@ -45,3 +45,11 @@
 	float: left;
 	width: 240px
 }
+
+#footer {
+	background: url('../images/bg_footer.jpg') top center repeat-x;
+	padding: 25px 0;
+	color: #ffffff;
+	font-size: 10px;
+}
+#footer a {color: #ffffff;}
