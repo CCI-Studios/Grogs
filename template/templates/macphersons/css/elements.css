@@ -7,7 +7,12 @@ body, select, input, textarea {
 }
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
-h1, h2, h3, h4, h5, h6 { font-weight: bold; margin: 0; }
+h1, h2, h3, h4, h5, h6 { 
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold; 
+	margin: 0; 
+}
+
 h1 {
 	font-size: 24px;
 	font-weight: normal;
