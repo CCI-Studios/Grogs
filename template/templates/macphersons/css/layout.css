@@ -3,3 +3,9 @@
 	width: 940px;
 	margin: 0 auto;
 }
+
+#nav {
+	background: url('../images/nav_bg.png') top center repeat-x;
+}
+
+#nav > div {position: relative}
