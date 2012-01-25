@@ -25,9 +25,6 @@
 .moduletable_hmenu.primary ul li {
 	background: url('../images/menubreak.png') right center no-repeat;
 	padding-left:14px;
-	display: inline-block;
-	*display: inline;
-	zoom: 1;
 	padding: 0px;
 	line-height: 43px;
 }
@@ -44,9 +41,10 @@
 }
 
 /*logo menu link*/
+.moduletable_hmenu.primary ul li:first-child {position: relative; top: 69px; padding-right: 65px;}
 .moduletable_hmenu.primary ul li:first-child span {display: none;}
 .moduletable_hmenu.primary ul li:first-child img {position: relative; top: -14px;}
-.moduletable_hmenu.primary ul li:first-child {position: relative; top: 69px;}
+
 .moduletable_hmenu.secondary {
 	float: right;
 }
