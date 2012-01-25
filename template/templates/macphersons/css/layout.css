@@ -8,3 +8,5 @@
 #nav .container {height: 140px;}
 
 #nav {background: url('../images/nav_bg.png') bottom center repeat-x;}
+
+#header {background: url('../images/bg_header.jpg') top center repeat-x; height: 248px;}
