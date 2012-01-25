@@ -47,3 +47,14 @@
 .moduletable_hmenu.primary ul li:first-child span {display: none;}
 .moduletable_hmenu.primary ul li:first-child img {position: relative; top: -14px;}
 .moduletable_hmenu.primary ul li:first-child {position: relative; top: 69px;}
+.moduletable_hmenu.secondary {
+	float: right;
+}
+
+.moduletable_hmenu.secondary ul { margin: 0; }
+
+.moduletable_hmenu.secondary ul li:first-child {border-left: none;}
+.moduletable_hmenu.secondary ul li {
+	border-left: 1px solid #ffffff; 
+	line-height: 10px;
+}
