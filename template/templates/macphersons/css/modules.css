@@ -58,3 +58,15 @@
 	border-left: 1px solid #ffffff; 
 	line-height: 10px;
 }
+
+.moduletable_hmenu.top {
+	position: relative; 
+	float: right;
+	font-size: 14px;
+	padding-top: 12px;
+	z-index: 3;
+}
+.moduletable_hmenu.top ul {margin: 0;}
+.moduletable_hmenu.top ul li:first-child {border: none;}
+.moduletable_hmenu.top ul li {border-left: 1px solid #549768; line-height: 12px;}
+.moduletable_hmenu.top a:hover {text-decoration: underline;}
