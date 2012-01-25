@@ -19,19 +19,19 @@ $user		= JFactory::getUser();
 ?>
 <div class="item-page<?php echo $this->pageclass_sfx?>">
 <?php if ($this->params->get('show_page_heading', 1)) : ?>
-	<h1>
+	<h1><span>
 	<?php echo $this->escape($this->params->get('page_heading')); ?>
-	</h1>
+	</span></h1>
 <?php endif; ?>
 <?php if ($params->get('show_title')) : ?>
-	<h1>
+	<h1><span>
 	<?php if ($params->get('link_titles') && !empty($this->item->readmore_link)) : ?>
 		<a href="<?php echo $this->item->readmore_link; ?>">
 		<?php echo $this->escape($this->item->title); ?></a>
 	<?php else : ?>
 		<?php echo $this->escape($this->item->title); ?>
 	<?php endif; ?>
-	</h1>
+	</span></h1>
 <?php endif; ?>
 
 <?php if ($canEdit ||  $params->get('show_print_icon') || $params->get('show_email_icon')) : ?>
