@@ -8,6 +8,30 @@ body, select, input, textarea {
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
 h1, h2, h3, h4, h5, h6 { font-weight: bold; margin: 0; }
+.home h1, 
+.moduletable h3 {
+	letter-spacing:.1em;
+	font-size:18px;
+	font-style: bold;
+	margin-bottom:20px;	
+	color:#549768;
+	background: url('../images/bullet.png') top left no-repeat;
+	text-shadow: none;
+	position: none;
+	top: 0;
+	padding: 0;
+	text-align: left;
+}
+
+.home h1 span, 
+.moduletable h3 span {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	background: url('../images/bullet.png') top right no-repeat;
+	padding: 0 30px 10px;
+	border-bottom: 1px solid #549768;
+}
 
 a, a:active, a:visited {
 	color: #49905e;
