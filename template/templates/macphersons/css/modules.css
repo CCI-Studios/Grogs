@@ -70,3 +70,6 @@
 .moduletable_hmenu.top ul li:first-child {border: none;}
 .moduletable_hmenu.top ul li {border-left: 1px solid #549768; line-height: 12px;}
 .moduletable_hmenu.top a:hover {text-decoration: underline;}
+
+#sidebar .moduletable:first-child {margin:0;}
+#sidebar .moduletable {margin-top: 45px;}
