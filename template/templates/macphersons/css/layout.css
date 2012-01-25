@@ -28,3 +28,13 @@
 	padding-left: 0;
 	width: 400px;
 }
+
+#content ul li {
+	background: url('../images/ul_bullet.png') no-repeat top left;
+	padding: 0 0 7px 15px;
+	width: 120px;
+	display: inline-block;
+	*display:inline;
+	zoom: 1;
+	white-space: nowrap;
+}
