@@ -72,7 +72,7 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 	<div id="footer"><div class="container">
 		<jdoc:include type="modules" name="footer" style="xhtml" />
 		<div>
-			<p>Copyright &copy; <?php echo date('Y') ?> MacPherson's Restaurant.  All Rights Reserved.</p>
+			<p>Copyright &copy; <?php echo date('Y') ?> MacPherson's Restaurant.  All Rights Reserved.</p><br>
 			<p>Site by <a href="http://ccistudios.com" target="_blank">CCI Studios</a></p>
 		</div>
 	</div></div>
