@@ -1,4 +1,12 @@
 /*Main Menu*/
+.moduletable_hmenu ul li {
+	font-family: 'Times New Roman', Times, serif;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	padding: 0 7px;
+}
+
 .moduletable_hmenu.primary  {
 	position: absolute;
 	bottom: 0;
