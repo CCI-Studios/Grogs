@@ -40,3 +40,7 @@
 	background: url('../images/nav_rollover.png') center top no-repeat;
 }
 
+/*logo menu link*/
+.moduletable_hmenu.primary ul li:first-child span {display: none;}
+.moduletable_hmenu.primary ul li:first-child img {position: relative; top: -14px;}
+.moduletable_hmenu.primary ul li:first-child {position: relative; top: 69px;}
