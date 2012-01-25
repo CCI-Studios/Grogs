@@ -38,3 +38,5 @@
 	zoom: 1;
 	white-space: nowrap;
 }
+.home #content p {margin-top: 0px;}
+#content p {margin-top: -29px;}
