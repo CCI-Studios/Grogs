@@ -11,3 +11,8 @@
 
 #header {background: url('../images/bg_headerInner.jpg') top center repeat-x; height: 93px;}
 .home #header {background: url('../images/bg_header.jpg') top center repeat-x; height: 248px;}
+
+#body {
+	background: #ffffff;
+	padding: 30px 0;
+}
