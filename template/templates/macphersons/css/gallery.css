@@ -1,0 +1,11 @@
+ul.sigProElegant li.sigProThumb {
+	margin: 0 0 15px 18px;
+}
+
+ul.sigProElegant li.sigProThumb a.sigProLink {
+	border: 7px solid #F4F2ED;
+}
+
+ul.sigProElegant li.sigProThumb a.sigProLink:hover {
+	border: 7px solid #49905E;
+}
