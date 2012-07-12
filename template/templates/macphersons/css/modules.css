@@ -73,3 +73,20 @@
 
 #sidebar .moduletable:first-child {margin:0;}
 #sidebar .moduletable {margin-top: 45px;}
+
+.module.banner {
+	font-family: "Times";
+	width: 100%;
+	max-height: 59px;
+	background: url('../images/bg_banner.png') bottom center repeat-x;
+	position: absolute;
+	bottom: 11px;
+}
+
+.module.banner > div {
+	width: 940px;
+	padding: 0 10px;
+	margin: 0 auto;
+	text-align: center;
+	color: #549768;
+}
