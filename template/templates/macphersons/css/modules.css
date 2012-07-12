@@ -41,9 +41,9 @@
 }
 
 /*logo menu link*/
-.moduletable_hmenu.primary ul li:first-child {position: relative; top: 69px; padding-right: 65px;}
+.moduletable_hmenu.primary ul li:first-child {position: relative; top: 69px; padding-right: 55px;}
 .moduletable_hmenu.primary ul li:first-child span {display: none;}
-.moduletable_hmenu.primary ul li:first-child img {position: relative; top: -14px;}
+.moduletable_hmenu.primary ul li:first-child img {position: relative; top: -14px; z-index: 10;}
 .moduletable_hmenu.primary ul li:first-child a:hover {background: none;}
 
 .moduletable_hmenu.secondary {
