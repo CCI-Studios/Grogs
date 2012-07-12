@@ -37,7 +37,7 @@
 }
 
 .moduletable_hmenu.primary ul li a:hover {
-	background: url('../images/nav_rollover.png') center top no-repeat;
+	background: url('../images/nav_rollover.png') center top repeat-x;
 }
 
 /*logo menu link*/
