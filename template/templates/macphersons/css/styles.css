@@ -11,3 +11,17 @@
 /* TODO Update selection BG color */
 ::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
 ::selection { background:#FF5E99; color:#fff; text-shadow: none; }
+
+ul.list-style {
+	float: left;
+	width: 20%;
+	list-style-position:inside;
+	padding-left: 0;
+}
+
+.list-style li {
+	background: url('../images/ul_bullet.png') no-repeat left center;
+	padding: 0 0 0 15px;
+	list-style: none;
+	line-height: 2em;
+}
